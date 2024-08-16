@@ -4,10 +4,10 @@ const Tutorial = (props) => {
   return (
     <div
       id="tutorial"
-      className="h-screen flex justify-center -mt-[2cm] items-center"
+      className="h-screen flex justify-center lg:-mt-28 mb-12 items-center"
     >
       <div
-        className={`bg-${props.mode} border-2 shadow-md p-8 rounded-md w-full max-w-[1000px] mx-4`}
+        className={`bg-${props.mode} border-2 shadow-md p-8 rounded-md w-full max-w-[1000px] mx-auto`}
       >
         <h1 className="font-bold text-[#6e82e7] text-3xl mt-4">Tutorial</h1>
         <h3 className="font-bold text-[#6e82e7] text-xl mt-4 mb-4">

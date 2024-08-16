@@ -4,10 +4,10 @@ const Pricing = (props) => {
   return (
     <div
       id="pricing"
-      className="h-screen flex justify-center -mt-[2cm] items-center"
+      className="h-screen flex justify-center lg:-mt-36 items-center"
     >
       <div
-        className={`bg-${props.mode} border-2 shadow-md p-8 rounded-md w-full max-w-[1000px] mx-4`}
+        className={`bg-${props.mode} border-2 shadow-md p-8 rounded-md w-full max-w-[1000px] mx-auto`}
       >
         <h1 className="font-bold text-[#6e82e7] text-3xl mt-4">API Pricing</h1>
         <p className={`font-medium text-${props.mode} text-base`}>
